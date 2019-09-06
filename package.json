@@ -1,0 +1,27 @@
+{
+  "name": "face-detention",
+  "version": "1.0.0",
+  "description": "Face detention with GCV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google-cloud/storage": "^3.2.1",
+    "chai": "^4.2.0",
+    "execa": "^2.0.4",
+    "mocha": "^6.2.0",
+    "uuid": "^3.3.3"
+  },
+  "dependencies": {
+    "@google-cloud/automl": "^1.5.0",
+    "@google-cloud/vision": "^1.2.0",
+    "canvas": "^2.6.0",
+    "mathjs": "^6.2.1",
+    "natural": "^0.6.3",
+    "redis": "^2.8.0",
+    "yargs": "^14.0.0"
+  }
+}
